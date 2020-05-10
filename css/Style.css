@@ -1,0 +1,208 @@
+*{
+  margin: 0;
+  padding:  0;
+}
+
+
+/* Main Container */
+.container{
+  width: 1140px;
+  margin: 0 auto;
+  /*background: #0D3ECC; */
+}
+
+/* Main Header Starts Here */
+.main-header{
+  width: 100%;
+  float: left;
+  background: #e8e7e7;
+}
+
+/* Logo Starts Here */
+.logo{
+  width: 20%;
+  height: 75px;
+  float: left; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img{
+         width: 173px;
+    height: 144px;
+}
+
+/* Logo Ends Here */
+
+/* Main menu starts here */
+.menu{
+  width: 50%;
+  /* background: orangered; */
+  height: 100px;
+  float: left;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul{
+  list-style: none;
+  margin: 1%;
+  padding: 1%;
+  text-transform: uppercase;
+}
+
+.menu ul li{
+  display: inline;
+  margin: -1px 0;
+  padding: 20px;
+  transition: .4s;
+}
+
+.menu ul li a{
+  text-decoration: none;
+}
+
+.menu ul li a{
+  color: black;
+}
+
+.menu ul li a{
+  color: black;
+}
+
+.menu ul li a{
+  color: red;
+  transform: translateX(60deg);
+  transition: .4s;
+}
+
+.menu ul li a{
+  color: black;
+}
+.social-menu{
+  width: 30%;
+  height: 75px;
+  float: left; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-menu ul{
+  list-style: none;
+}
+
+.social-menu ul li{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  margin: 10px;
+  padding: 8px;
+  background: skyblue;
+
+}
+
+.social-menu ul li a{
+  text-decoration: none;
+}
+/* Main menu ends here */
+
+/*Benner section start*/
+.sec-banner {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+}
+.sec-banner-img {
+	width: 1140px;
+	height: 500px;
+	background: url(../img/banner1140-500.png);
+	background-repeat: no-repeat;
+  background-size: cover;
+	/*background: blue;*/
+}
+/*.sec-banner-div-one {
+	width: 60%;
+	height: 100%;
+	float: left;
+	/*background: red;*/*/
+}
+.write{
+	width: 25%;
+	height: 40%
+	background: ;
+}
+/*Service start*/
+.web-design {
+	width: 25%;
+	height: 260px;
+	    background: #8bc34a38;
+	float: left;
+}
+
+.web-development {
+  width: 25%;
+  height: 260px;
+     background: #ff98004a;
+  float: left;
+}
+.wordpress {
+  width: 25%;
+  height: 260px;
+      background: #00bcd429;
+  float: left;
+}
+.web-recarch {
+  width: 25%;
+  height: 260px;
+  background: #e91e6338;
+  float: left;
+}
+.icon-frame {
+	width: 100%;
+	height: 120px;
+	/*background: green;
+*/
+}
+.icon-frame button {
+      padding: 5px;
+    margin: 20px 78px;
+    position: absolute;
+    font-size: 16px;
+    border: 1px solid white;
+    background: #62ff00a3;
+    width: 8%;
+}
+.iconedit {
+	    width: 39%;
+    height: 86%;
+    padding: 2% 29%;
+}
+/* service details start */
+.web-design-details {
+  width: 50%;
+  height: 350px;
+ /* background: #B7CCD3;*/
+  float: left;
+}
+
+
+.box {
+    width: 60%;
+    height: 250px;
+    margin: 53px 110px;
+   background: #B7CCD3;
+}
+.box-write-one {
+          padding: 27px;
+}
+.box-write-two {
+      padding: 13px 29px 12px 41px;
+}
+    
+
+
